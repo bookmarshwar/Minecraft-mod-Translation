@@ -6,8 +6,8 @@ import json
 from pip._vendor.distlib.compat import raw_input
 def transf(q):
 # 百度appid和密钥需要通过注册百度【翻译开放平台】账号后获得
-    appid = '20230411001636740'        # 填写你的appid
-    secretKey = 'K8IP79_7ZH7sxjsF7emc'    # 填写你的密钥
+    appid = ''        # 填写你的appid
+    secretKey = ''    # 填写你的密钥
  
     httpClient = None
     myurl = '/api/trans/vip/translate'  # 通用翻译API HTTP地址
